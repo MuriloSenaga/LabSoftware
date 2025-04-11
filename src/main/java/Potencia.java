@@ -1,9 +1,9 @@
 public class Potencia {
-    public int potencia (int a, int b) {
-	int n = a;
-	for (int i = 0; i++; i<b){
-		a = a*n;
-	}
-        return a;
+    public int potencia(int a, int b) {
+        int resultado = 1;
+        for (int i = 0; i < b; i++) {
+            resultado *= a;
+        }
+        return resultado;
     }
 }
