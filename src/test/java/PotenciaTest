@@ -1,0 +1,16 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class PotenciaTest {
+
+    @Test
+    public void testPotencia() {
+        Potenciadora calc = new Potenciadora();
+        assertEquals(8, calc.potencia(2, 3));
+    }
+    @Test
+    public void testPotenciaErro() {
+        Potenciadora calc = new Potenciadora();
+        assertEquals(10, calc.potencia(2, 3));
+    }
+}
