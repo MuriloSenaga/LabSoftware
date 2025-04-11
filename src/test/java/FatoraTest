@@ -1,0 +1,16 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class FatoraTest {
+
+    @Test
+    public void testFatora() {
+        Fatoradora calc = new Fatoradora();
+        assertEquals(8, calc.fatorar(2, 3));
+    }
+    @Test
+    public void testSomaErro() {
+        Fatoradora calc = new Fatoradora();
+        assertEquals(10, calc.fatorar(2, 3));
+    }
+}
