@@ -8,10 +8,4 @@ public class PotenciaTest {
         Potencia pot = new Potencia();
         assertEquals(8, pot.potencia(2, 3));  // 2³ = 8
     }
-
-    @Test
-    public void testCalculoErrado() {
-        Potencia pot = new Potencia();
-        assertEquals(10, pot.potencia(2, 3)); // esse aqui deve falhar
-    }
 }
